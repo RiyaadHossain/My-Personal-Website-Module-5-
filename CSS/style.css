@@ -8,3 +8,45 @@ body{
 img{
     width: 100%;
 }
+
+
+/* Header Section  */
+.header_banner{
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 23px;
+    font-weight: 700;
+    padding: 16px;
+}
+.nav_bar ul{
+    display: flex;
+}
+
+.nav_bar ul li{
+    list-style: none;
+    padding:0 10px;
+}
+.nav_bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* ShowCase Section */
+.show_case{
+    align-items: center;
+}
+.info{
+    text-align: center;
+}
+.info h1{
+    font-size: 40px;
+    line-height: 25px;
+}
+.info p{
+    font-size: 19px;
+    font-weight: 400;
+}

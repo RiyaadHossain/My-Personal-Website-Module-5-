@@ -1,4 +1,26 @@
 /* Utilities Classes */
+.container{
+    max-width: 1220px;
+}
 .flex{
     display: flex;
+}
+.half_width{
+    width: 50%;
+}
+.colored{
+    color: orangered;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: crimson;
+    padding: 15px 40px;
+    border-radius: 6px;
+    margin-top: 10px;
+    display: inline-block;
+    background-image: linear-gradient(to right, red, blue);
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
 }
