@@ -39,6 +39,11 @@ img{
     font-weight: 600;
 }
 
+/* About Section */
+.about_me{
+    padding: 50px 0;
+}
+
 /* ShowCase Section */
 .show_case{
     align-items: center;
@@ -59,20 +64,31 @@ img{
 .skill{
     padding: 5% 0;
 }
+.skill h1{
+    text-align: center;
+    font-size: 29px;
+}
+.skill h4{
+    text-align: center;
+    margin-bottom: 65px;
+    font-weight: 400;
+}
 .skill_item{
     margin-left: 3%;
-    box-shadow: 15px 14px 23px -6px rgba(0,0,0,0.38);
     -webkit-box-shadow: 15px 14px 23px -6px rgba(0,0,0,0.38);
     -moz-box-shadow: 15px 14px 23px -6px rgba(0,0,0,0.38);
+    box-shadow: 15px 14px 23px -6px rgba(0,0,0,0.38);
     padding: 26px 10px 16px;
 }
 .skill_item i{
     font-size: 44px;
     color: crimson;
 }
-.skill_item h3{
-    color: ;
-}
 .skill_item p{
     color: rgb(90, 88, 88);
+}
+
+/* Footer Section */
+footer{
+    padding: 24px;
 }
