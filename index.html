@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Portfolio</title>
+
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Link CSS -->
     <link rel="stylesheet" href="./CSS/utilities.css">
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
@@ -12,8 +19,7 @@
 
     <!-- Header Section Start -->
     <section class="header">
-        <div class="container">
-                <div class="header_banner flex">
+                <div class="header_banner flex bg_primary container_fluid">
                     <div class="logo">Logo</div>
                     <div class="nav_bar">
                         <ul>
@@ -25,7 +31,7 @@
                     </div>
             </div>
 
-            <div class="show_case flex">
+            <div class="show_case flex container">
                 <div class="profile_pic half_width"> 
                     <img src="./Image/Image-1.png" alt="">
                 </div>
@@ -33,16 +39,26 @@
                     <h1>I'm <span class="colored">Riyad</span></h1>
                     <h1>Web Developer</h1>
                     <h2>I'm really passionate about Web Development</h2>
-                    <p>Everyday I wake up from bed and sit on my chair in front of my computer desk.<br> When I start coding, it's quite difficult for me to get up having uncompleted my task.</p>
+                    <p>Everyday I wake up from bed and sit on my chair in front of my computer desk. When I start coding, it's quite difficult for me to get up having uncompleted my task. Today I have to work a lot.</p>
                     <a class="btn" href="#">Hire Me</a>
                 </div>
             </div>
-        </div>
     </section>
     <!-- Header Section End --> 
 
     <!-- About Me Section Start -->
-    <section class="about_me"></section>
+    <section class="about_me bg_secondary pb_15">
+        <div class="flex align_center container">
+            <div class="about_info half_width">
+                <h1>About Me</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quisquam beatae magnam doloremque vero? Quisquam at debitis provident impedit quae optio autem vitae recusandae cumque sit quo voluptatum nulla accusantium fugit, sapiente alias ipsum porro aliquam iure nihil numquam nesciunt!</p>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita a harum perspiciatis similique fugit laborum inventore velit? Nostrum sit similique facere est corporis maxime ratione ipsam? Libero, nihil repellat? Cum nostrum fugit dolore facere quis quo tempora, aspernatur eius earum, unde debitis voluptate aliquam? Provident quasi distinctio suscipit atque facilis!</p>
+            </div>
+            <div class="about_pic half_width">
+                <img src="./Image/Image-2.png" alt="">
+            </div>
+        </div>
+    </section>
     <!-- About Me Section End -->
 
     <!-- Skill Section Start -->

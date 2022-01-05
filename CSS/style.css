@@ -1,6 +1,6 @@
 /* Global Style */
 body{
-
+    font-family: 'Be Vietnam Pro', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -11,6 +11,9 @@ img{
 
 
 /* Header Section  */
+.header{
+    height: 100vh;
+}
 .header_banner{
     align-items: center;
     justify-content: space-between;
@@ -30,7 +33,7 @@ img{
 }
 .nav_bar ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
     font-weight: 600;
 }
